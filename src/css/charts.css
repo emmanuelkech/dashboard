@@ -1,0 +1,103 @@
+.charts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;  
+}
+
+.inflow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 0.1rem;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    overflow-x: auto;
+}
+
+.chart {
+    width: auto;
+}
+
+.new-user {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #990D81;
+    color: #FFFFFF;
+    border-radius: 1rem;
+    overflow-x: auto;
+}
+
+.bar-desc-container {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+
+.bar-desc {
+    font-weight: bold;
+}
+
+.rate {
+    font-weight: bold;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .new-user {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .new-user {
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .new-user {
+        display: none;
+    }
+
+    .inflow-container {
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .new-user {
+        display: none;
+    }
+
+    .inflow-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        padding: 0.1rem;
+        background-color: #FFFFFF;
+        border-radius: 1rem;
+        overflow-x: auto;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1290px and up) */
+@media only screen and (min-width: 1290px) {
+    .new-user {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #990D81;
+        color: #FFFFFF;
+        border-radius: 1rem;
+        overflow-x: auto;
+    }
+}

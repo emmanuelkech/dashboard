@@ -1,0 +1,147 @@
+.header-container {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.page-name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon {
+    margin-right: 0.5rem;
+}
+
+.search {
+    color: #D6D7E3;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.user-language {
+    color: #767676;
+    font-size: 1.3rem;
+}
+
+.user-icon {
+    margin-left: 1.5rem;
+}
+
+.size {
+    height: 40px;
+    width: 40px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .search-container {
+        display: none;
+    }
+
+    .settings {
+        display: none;
+    }
+
+    .toggle-container {
+        display: flex;
+        border: 3px solid #000000;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        margin-right: 1rem;
+    }
+
+    .page-name {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .language-container {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .search-container {
+        display: none;
+    }
+
+    .settings {
+        display: flex;
+        align-items: center;
+    }
+
+    .toggle-container {
+        display: flex;
+        border: 3px solid #000000;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        margin-right: 1rem;
+    }
+
+    .page-name {
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+
+    .language-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .search-container {
+        display: none;
+    }
+
+    .toggle-container {
+        display: flex;
+        border: 3px solid #000000;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        margin-right: 1rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .search-container {
+        display: none;
+    }
+
+    .toggle-container {
+        display: flex;
+        border: 3px solid #000000;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        margin-right: 1rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .search-container {
+        display: flex;
+        align-items: center;
+        background-color: #FAFAFA;
+        padding: 0.5rem;
+        border-radius: 0.1rem;
+        width: 17rem;
+        margin-right: 2rem;
+    }
+
+    .toggle-container {
+        display: none;
+    }
+}

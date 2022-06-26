@@ -1,0 +1,145 @@
+.request-container {
+    display: flex;
+    justify-content: left;
+    padding: 1rem;
+    width: 100%;
+}
+
+.request-virtual {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    padding: 1rem 0 0 0;
+    overflow-x: auto;
+}
+
+.virtual-title-container {
+    padding: 1rem 1.5rem;
+}
+
+.virtual-title {
+    color: #141414;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.table-header {
+    display: flex;
+    gap: 10rem;
+    border-bottom: 1px solid #F5F5F5;
+    font-weight: bold;
+    color: #8392AB;
+    padding: 1rem 1.5rem;
+}
+
+.table-row {
+    display: flex;
+    border-bottom: 1px solid #F5F5F5;
+    padding: 1rem 1.5rem;    
+}
+
+.last-row {
+    display: flex;
+    padding: 1rem 1.5rem;
+}
+
+.name-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-width: 15rem;
+}
+
+.user-image {
+    border-radius: 0.5em;
+}
+
+.name {
+    color: #141414;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.email {
+    color: #8392AB;
+}
+
+.user-type-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #8392AB;
+    min-width: 10rem;
+}
+
+.user-status-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    min-width: 10rem;  
+}
+
+.user-status {
+    color: #FFB648;
+    padding: 0.4rem 0.8rem;
+    background-color: rgba(255, 172, 50, 0.1);
+    border-radius: 1rem;
+}
+
+.active-status {
+    color: #63B67F;
+    padding: 0.4rem 0.8rem;
+    background-color: rgba(99, 182, 127, 0.1);
+    border-radius: 1rem;
+}
+
+.date-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8392AB;
+    min-width: 15rem;
+}
+
+.expand-container {
+    display: flex;
+    align-items: center;
+    padding-right: 3rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .request-container {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .request-container {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        width: 100%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .request-container {
+        display: flex;
+        justify-content: left;
+        padding: 1rem;
+        width: 100%;
+    }
+}
